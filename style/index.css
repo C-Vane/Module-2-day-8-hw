@@ -1,15 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap");
+* {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
 nav.navbar ul > .nav-item:not(:first-child),
 nav.navbar > div > form {
   display: none;
 }
+h2 + p {
+  font-weight: 300;
+}
 
-.h1 {
-  font-size: 3rem;
+h2 {
+  margin: 20px;
+  font-size: 50px;
+  font-weight: 300;
 }
 .container {
   text-align: center;
 }
-#ex1 > div.row {
+#ex1 div.row {
   color: white;
   height: 400px;
   margin: 20px;
@@ -21,14 +31,14 @@ nav.navbar > div > form {
   padding: 170px;
   align-items: center;
   justify-content: center;
-  background-color: #95d85d;
+  background-color: #6bb56b;
   border-top-left-radius: 40px;
   border: 2px solid black;
   border-bottom-left-radius: 40px;
 }
 #ex1 div.row > div:nth-child(2) {
   display: flex;
-  background-color: #377bd4;
+  background-color: #299bff;
   border: 2px solid black;
   border-right: none;
   border-left: none;
@@ -48,7 +58,7 @@ nav.navbar > div > form {
   color: black;
 }
 #ex1 div.row > div:nth-child(3) > div:first-child {
-  background-color: #fffd98;
+  background-color: #fff7bd;
   border-top-right-radius: 40px;
   border: 2px solid black;
   border-bottom: none;
@@ -56,12 +66,12 @@ nav.navbar > div > form {
   flex: 1;
 }
 #ex1 div.row > div:nth-child(3) > div:nth-child(2) {
-  background-color: #fffc48;
+  background-color: #ffed69;
   border-right: 2px solid black;
   flex: 1;
 }
 #ex1 div.row > div:nth-child(3) > div:nth-child(3) {
-  background-color: #f1ed00;
+  background-color: #ffe41f;
   border: 2px solid black;
   border-top: none;
   border-bottom-right-radius: 40px;
@@ -130,7 +140,28 @@ h5 strong {
   padding: 4px 7px;
   font-size: 13px;
 }
+#ex4 h2 {
+  font-size: 40px;
+}
+#ex4 h2 > span {
+  font-size: 30px;
+  font-weight: 400;
+}
+#ex4 div.row div:nth-child(1) .btn-group {
+  width: 40%;
+  margin: auto;
+}
 
+#ex4 div.row div:nth-child(2) .card-header {
+  font-size: 18px;
+}
+#ex4 div.row div:nth-child(2) .card-body ul {
+  list-style-type: none;
+  padding: 0 20px;
+}
+#ex4 div.row .card:nth-child(3) p {
+  font-size: 15px;
+}
 footer {
   padding: 40px;
   margin-top: 40px;
@@ -147,10 +178,7 @@ footer {
 }
 #ex5 ul {
   padding: 0;
-}
-#ex5 ul > li {
   list-style-type: none;
   font-size: 15px;
   color: grey;
-  text-align: left;
 }
