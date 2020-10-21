@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  text-align: center;
 }
 nav.navbar ul > .nav-item:not(:first-child),
 nav.navbar > div > form {
@@ -8,9 +9,8 @@ nav.navbar > div > form {
 .h1 {
   font-size: 3rem;
 }
-#ex1 {
+#ex1 > div.row {
   color: white;
-  min-height: 400px;
 }
 #ex1 div.row > div:first-of-type {
   display: flexbox;
