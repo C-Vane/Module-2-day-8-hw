@@ -1,77 +1,156 @@
-* {
-  margin: 0;
-  text-align: center;
-}
 nav.navbar ul > .nav-item:not(:first-child),
 nav.navbar > div > form {
   display: none;
 }
+
 .h1 {
   font-size: 3rem;
 }
+.container {
+  text-align: center;
+}
 #ex1 > div.row {
   color: white;
+  height: 400px;
+  margin: 20px;
+  font-size: 15px;
+  margin-bottom: 70px;
 }
 #ex1 div.row > div:first-of-type {
-  display: flexbox;
-  margin: auto;
-  padding: 80px;
-  text-align: center;
+  display: flex;
+  padding: 170px;
+  align-items: center;
+  justify-content: center;
   background-color: #95d85d;
-  border-top-left-radius: 30px;
-  border: 1px solid black;
-  border-bottom-left-radius: 30px;
+  border-top-left-radius: 40px;
+  border: 2px solid black;
+  border-bottom-left-radius: 40px;
 }
 #ex1 div.row > div:nth-child(2) {
-  display: flexbox;
-  text-align: center;
-  justify-content: end;
+  display: flex;
   background-color: #377bd4;
-  border: 1px solid black;
+  border: 2px solid black;
+  border-right: none;
+  border-left: none;
 }
 #ex1 div.row > div:nth-child(2) > p {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  text-align: left;
+}
+#ex1 div.row > div:nth-child(2) > p {
+  align-self: flex-end;
+  margin: 10px;
 }
 #ex1 div.row > div:nth-child(3) {
   display: flex;
   flex-direction: column;
   align-items: stretch;
   padding: 0;
+  color: black;
 }
 #ex1 div.row > div:nth-child(3) > div:first-child {
-  background-color: #f8f686;
-  border-top-right-radius: 30px;
-  border: 1px solid black;
+  background-color: #fffd98;
+  border-top-right-radius: 40px;
+  border: 2px solid black;
   border-bottom: none;
+  border-left: none;
   flex: 1;
 }
 #ex1 div.row > div:nth-child(3) > div:nth-child(2) {
-  background-color: #ebe846;
-
-  border-right: 1px solid black;
+  background-color: #fffc48;
+  border-right: 2px solid black;
   flex: 1;
 }
 #ex1 div.row > div:nth-child(3) > div:nth-child(3) {
-  background-color: #b1ae07;
-  border: 1px solid black;
+  background-color: #f1ed00;
+  border: 2px solid black;
   border-top: none;
-  border-bottom-right-radius: 30px;
+  border-bottom-right-radius: 40px;
   flex: 1;
+  border-left: none;
+}
+#ex1 div.row > div:nth-child(3) > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#ex2 div.row {
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+#ex2 div.card {
+  border: 1px solid #adadad;
+  border-radius: 5px;
+  padding: 0;
+}
+#ex2 div .card-header {
+  border-bottom: 1px solid #adadad;
+  background-color: #e9e9e9;
+  font-weight: 500;
+  font-size: 20px;
+}
+#ex2 div.col ul {
+  list-style-type: none;
+  font-size: 15px;
+}
+#ex2 div.col a.btn {
+  width: 100%;
+}
+#ex2 h5 {
+  color: gray;
+}
+h5 strong {
+  color: black;
+  font-size: 30px;
+}
+#ex3 > div {
+  padding: 50px 2px;
+
+  background-color: #f5f5f5;
+}
+#ex3 div.card {
+  margin: auto;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+#ex3 p.card-text {
+  text-align: left;
+}
+#ex3 div.card-body > div {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+#ex3 div.card-body .btn-group {
+  margin: 0;
+  align-self: flex-end;
+}
+#ex3 .btn-outline-secondary {
+  padding: 4px 7px;
+  font-size: 13px;
 }
 
-#ex2 div.col{
-  min-height : 200px;
-  border : 1px solid #e6e6e6;
-  padding : 0;
-  margin : 10px;
+footer {
+  padding: 40px;
+  margin-top: 40px;
+  border-top: 1px solid #adadad;
+  text-align: left;
 }
-#ex2 div.col li{
-  font-size: x-small;
-  
+#ex5 div.row {
+  display: flex;
+  justify-content: space-around;
 }
-#ex2 div.col a.btn{
-  width : 100%;
-  
+#ex5 div.col > h4 {
+  text-align: left;
+  font-size: 20px;
+}
+#ex5 ul {
+  padding: 0;
+}
+#ex5 ul > li {
+  list-style-type: none;
+  font-size: 15px;
+  color: grey;
+  text-align: left;
 }
