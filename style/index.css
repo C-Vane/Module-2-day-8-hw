@@ -60,3 +60,18 @@ nav.navbar > div > form {
   border-bottom-right-radius: 30px;
   flex: 1;
 }
+
+#ex2 div.col{
+  min-height : 200px;
+  border : 1px solid #e6e6e6;
+  padding : 0;
+  margin : 10px;
+}
+#ex2 div.col li{
+  font-size: x-small;
+  
+}
+#ex2 div.col a.btn{
+  width : 100%;
+  
+}
