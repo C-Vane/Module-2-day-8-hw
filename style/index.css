@@ -1,0 +1,11 @@
+nav.navbar ul > .nav-item:not(:first-child),
+nav.navbar > div > form {
+  display: none;
+}
+.h1 {
+  font-size: 3rem;
+}
+div#ex1 > div.row {
+  border: 1px solid black;
+  border-radius: 30px;
+}
